@@ -1,0 +1,129 @@
+  /* Genel Stiller */
+  .service-content {
+    background-color: #121212; /* Koyu arkaplan */
+    color: #e0e0e0;
+    padding: 60px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+  }
+  
+  .section-title:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #6200ea; /* Mor aksent rengi */
+    bottom: -10px;
+    left: 0;
+  }
+  
+  .line-dec {
+    width: 50px;
+    height: 3px;
+    background: #6200ea;
+    margin: 15px 0 25px;
+  }
+  
+  .left-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #b0b0b0;
+  }
+  
+  .left-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .left-text ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #d0d0d0;
+  }
+  
+  .left-text ul li:before {
+    content: "•";
+    color: #6200ea;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  
+  /* Teknoloji İkonları */
+  .service-item {
+    background: #1e1e1e; /* Koyu kart arkaplanı */
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333333;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px);
+    background: #252525;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #6200ea;
+  }
+  
+  .service-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .service-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .service-item h5 {
+    color: #ffffff;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  /* Responsive Ayarlar */
+  @media (max-width: 767px) {
+    .service-content {
+      padding: 40px 0;
+    }
+    
+    .section-title {
+      font-size: 24px;
+    }
+    
+    .service-item {
+      padding: 20px;
+    }
+    
+    .service-item img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+
+  /* hakkımda kısmının bitişi ürün kartlarının başlangıcı*/
+
+
+    
